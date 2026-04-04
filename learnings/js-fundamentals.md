@@ -146,3 +146,30 @@ null == 0 → false
 
 null == undefined → true
 null == anything else → false
+
+#### pre and post increment
+
+x++ --> use first, then increase (post increment)
+
+let x = 5;
+console.log(x++); // 5
+console.log(x);   // 6
+
+returns old value
+then update
+
+pre increment
+
+++x --> increase first,then use (pre increment)
+let x = 5;
+console.log(++x); // 6
+console.log(x);   // 6
+
+returns new value immediately
+
+
+Golden Rule (Must Remember)
+
+👉 x++ → “Give current, then increase”
+👉 ++x → “Increase, then give”
+

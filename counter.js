@@ -35,3 +35,11 @@
 
 // const double = multiply(2)
 // console.log(double(5))
+
+
+// const arr = [10,2,5]
+
+// console.log(arr.sort())
+
+// in the arrow functions if a single expression is there then it will be utomatically a return statement 
+// if it is not one statement the arraow function expects the return function
